@@ -4,14 +4,13 @@ export default function Form() {
   const inputRef = useRef(null);
 
   function handleClick() {
-    inputRef.current.scrollIntoView();
+    inputRef.current.focus();
   }
 
   return (
     <>
-      <div ref={inputRef} onClick={handleClick}>
-        Hellow
-      </div>
+      <input ref={inputRef} />
+      <button onClick={handleClick}>Focus the input</button>
     </>
   );
 }
