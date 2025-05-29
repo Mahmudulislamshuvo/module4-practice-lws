@@ -1,7 +1,7 @@
 import Ref from "./components/Ref";
 const App = () => {
   return (
-    <div>
+    <div className="text-start">
       <Ref />
     </div>
   );
