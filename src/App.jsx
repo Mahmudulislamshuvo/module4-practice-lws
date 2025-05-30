@@ -1,8 +1,8 @@
-import Ref from "./components/Ref";
+import TodoList from "./components/TodoList";
 const App = () => {
   return (
     <div className="text-start">
-      <Ref />
+      <TodoList />
     </div>
   );
 };
