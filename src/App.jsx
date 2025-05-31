@@ -1,8 +1,9 @@
-import TodoList from "./components/TodoList";
+import ChatRoom from "./components/Chatroom";
+
 const App = () => {
   return (
     <div className="text-start">
-      <TodoList />
+      <ChatRoom />
     </div>
   );
 };
