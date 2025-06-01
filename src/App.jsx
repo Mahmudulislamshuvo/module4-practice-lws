@@ -1,9 +1,10 @@
 import ChatRoom from "./components/Chatroom";
+import Comments from "./components/Comments";
 
 const App = () => {
   return (
     <div className="text-start">
-      <ChatRoom />
+      <Comments postId={"1"} />
     </div>
   );
 };
