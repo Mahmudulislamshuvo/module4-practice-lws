@@ -1,3 +1,4 @@
+import MainApp from "./components/2.27/MainApp.jsx";
 import Timer from "./components/4.21/Counter.jsx";
 import Form from "./components/4.22/FormInputs.jsx";
 import SaveButton from "./components/4.22/SaveButton.jsx";
@@ -8,7 +9,7 @@ const App = () => {
     <div>
       {/* <StatusBar />
       <SaveButton /> */}
-      <Form />
+      <MainApp />
     </div>
   );
 };
